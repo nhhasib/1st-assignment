@@ -1,8 +1,148 @@
-/*font-family: 'Work Sans', sans-serif;*/
-.header-container{
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+header{
     background-image: url(./images/banner/banner2.png);
     background-size: cover;
     text-align: right;
+    position: abolute;
+    width: 100%;
+}
+.header-container{
+    padding: 150px 200px 200px 700px;
+}
+.header-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-description{
+    font-size: 16px;
+}
+.primary-button{
+    padding: 20px 25px;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+/*My failures of Previous Year*/
+
+.failures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 100px 0px;
+    width: 75%;
+    margin: auto;
+}
+.failures-text{
+    padding: 20px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 14px;
+    color: #444343;
+}
+.section-list {
+    font-size: 14px;
+    color: #444343;
+}
+/*My Plan*/
+
+.plan{
+    text-align: center;
+    padding-bottom: 50px;
+    width: 75%;
+    margin: auto;
+}
+.plan-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.plan-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #444343;
+}
+.mindset{
+    background-image: url(./images/gradient2.png) , url(./images/watch.png);
+    background-repeat: no-repeat;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 120px;
 }
 
-
+.mindset-title{
+    padding: 50px 400px 5px 50px;
+    color: white;
+    font-size: 40px;
+}
+.mindset-button{
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    color:#F15B22;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 20px 50px
+}
+.footer-section{
+    background-color: black;
+    padding: 40px 0 50px 0;
+}
+.footer-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-description{
+    font-size: 14px;
+}
+.footer-text img{
+    padding: 10px 10px 0 0;
+}
+.subscribe{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-email{
+    padding: 20PX 100PX 20PX 10PX;
+    border-radius: 5px;
+}
+.footer-button{
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    color:#F15B22;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
