@@ -65,10 +65,6 @@ header{
     margin: 0;
     padding: 0;
 }
-  
-.section-list ul li:before {
-    content: '✓';
-}
 
 /*Keep improving yourself*/
 .middle{
@@ -95,10 +91,6 @@ header{
 }
 .right-part ul {
     list-style:none;
-}
-  
-.right-part ul li:before {
-    content: '✓';
 }
 
 /*My Plan*/
