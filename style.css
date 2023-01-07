@@ -151,6 +151,9 @@ header{
 .footer-email{
     padding: 20PX 100PX 20PX 10PX;
     border-radius: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }
 .footer-button{
     padding: 15px 20px;
